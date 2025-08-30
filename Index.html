@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - BHARATH C</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #007acc;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 5px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background: #005f99;
+      padding: 10px 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .skills span {
+      display: inline-block;
+      background: #007acc;
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 20px;
+      margin: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #005f99;
+      color: white;
+      margin-top: 20px;
+    }
+    button {
+      background: #007acc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #005f99;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BHARATH C</h1>
+    <p>BCA - 2nd Year Student</p>
+    <p>Email: <a href="mailto:kirubabharath345@gmail.com" style="color: #ffeb3b;">kirubabharath345@gmail.com</a></p>
+  </header>  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>  <section id="about" class="card">
+    <h2>About Me</h2>
+    <p>Hello! My name is <strong>Bharath C</strong>. I am currently pursuing <strong>Bachelor of Computer Applications (BCA)</strong> in my 2nd year. I am passionate about technology, programming, and learning new skills to build my career in IT.</p>
+  </section>  <section id="skills" class="card skills">
+    <h2>Skills</h2>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>C Programming</span>
+    <span>Python</span>
+  </section>  <section id="contact" class="card">
+    <h2>Contact Me</h2>
+    <p>If you’d like to get in touch, feel free to click the button below to send me an email.</p>
+    <button onclick="contactMe()">Contact</button>
+  </section>  <footer>
+    <p>&copy; 2025 Bharath C | Portfolio</p>
+  </footer>  <script>
+    function contactMe() {
+      window.location.href = "mailto:kirubabharath345@gmail.com";
+    }
+  </script></body>
+</html>
